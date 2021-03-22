@@ -1,0 +1,537 @@
+/*INICIO ESTILOS GENERALES*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+.header{
+    width: 100%;
+    background-color:#00338D;
+    padding: 10px;
+}
+
+.logoDecom{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+body{
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    transition: all 300ms;
+    font-size: 15px;
+}
+
+.nav a:hover{
+    color: #00338D;
+    transition: all 300ms;
+}
+
+.nav li{
+    display: inline-block;
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F0AB00;
+    transition: all 300ms;
+}
+
+.nav li:hover{
+    background-color: #ffb700;
+    transition: all 300ms;
+}
+
+.container{
+   width: 100%;
+   max-width: 1200px;
+   height: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   letter-spacing: 0.01em;
+   line-height: 1.5;
+   overflow: hidden;
+}
+/*FIN ESTILOS GENERALES*/
+
+/* INICIO ESTILOS INDEX*/
+.container .card img{
+    width: 100%;
+    height: 205px;
+}
+
+.container .card{
+    float: left;
+    width: 29%;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0 ,0 , 0.2);
+    overflow: hidden;
+    margin: 25px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #F8F8FF;
+}
+
+.container .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 16px rgba(0, 160, 218, 0.288);
+}
+
+.container .card p{
+    font-size: 16px;
+    padding: 0 1rem;
+}
+
+.container a{
+    text-decoration: none;
+    color: #009FDA;
+    transition: all 300ms;
+}
+
+.container a:hover{
+    color: #00338D;
+    transition: all 300ms;
+}
+/* FIN ESTILOS INDEX*/
+
+/* INICIO ESTILOS .MIEMBROS*/
+.container .miembros img{
+    width: 180px;
+    transition: all 300ms;
+}
+
+.container .miembros img:hover{
+    transform: translateY(-5px);
+}
+
+.container .miembros{
+    float: left;
+    margin: 24px;
+    text-align: center;
+    width: 16%;
+}
+
+.container .miembros h4{
+    color: #009FDA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+/* FIN ESTILOS .MIEMBROS*/
+
+/*INICIO ESTILOS MIEMBROS REDES*/
+.container .miembrosRedes img{
+    width: 180px;
+    transition: all 300ms;
+}
+
+.container .miembrosRedes img:hover{
+    transform: translateY(-5px);
+}
+
+.container .miembrosRedes{
+    float: left;
+    margin: 24px;
+    text-align: center;
+    width: 26%;
+}
+
+.container .miembrosRedes h4{
+    color: #009FDA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+
+/* INCIO ESTILOS .MIEMBROSPUBLI*/
+.container .miembrosPubli{
+    width: 20%;
+}
+
+.container .miembrosPubli img{
+    width: 180px;
+    transition: all 300ms;
+}
+
+.container .miembrosPubli img:hover{
+    transform: translateY(-5px);
+}
+
+.container .miembrosPubli{
+    float: left;
+    margin: 24px;
+    text-align: center;
+}
+
+.container .miembrosPubli h4{
+    color: #009FDA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+/* FIN ESTILOS .MIEMBROSPUBLI*/
+
+/* INCIO ESTILOS LOGO Y FOOTER*/
+.container .logo2021 img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+   background-color: black;
+   color: white;
+   transition: all 300ms;
+}
+
+.footer .container > div{
+    overflow: hidden;
+    float: left;
+    width: 29%;
+    overflow: hidden;
+    margin: 25px;
+    text-align: center;
+}
+
+.footer iframe{
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    padding-top: 10px;
+    transition: all 300ms;
+}
+
+.footer iframe:hover{
+    transform: translateY(-5px);
+}
+
+.footer .logo img{
+    width: 200px;
+}
+
+.footer .redes img{
+    width: 60px;
+    padding-top: 5px;
+    transition: all 300ms;
+}
+
+.footer .redes img:hover{
+    transform: translateY(-5px);
+}
+/* FIN ESTILOS LOGO Y FOOTER*/
+
+/*INICIO RESPONSIVE INDEX*/
+
+@media (max-width:1286px){
+    .container .card img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width:1155px){
+    .container .card{
+        width: 28%;
+    }
+}
+
+@media (max-width:1146px){
+    .container .card img {
+        height: 180px;
+    }
+}
+
+@media (max-width:1152px) {
+    
+    .footer .container > div{
+        width: 26%;
+    }
+}
+
+@media (max-width:1153px){
+    .footer .container > div{
+        width: 25%
+    }
+}
+
+@media (max-width:1078px){
+
+    .nav a{
+        font-size: 14px;
+    }
+
+    .container .card img {
+        width: 100%;
+        height: 160px;
+    }
+    .container .card{
+        height: 409px;
+    }
+}
+
+@media (max-width:972px){
+    .nav a{
+        font-size: 12px;
+    }
+    .container{
+        width: 80%;
+    }
+    .container .card{
+        width: 92%;
+        height: auto;
+    }
+    .container .card img{
+        height: 350px;
+    }
+    .footer .logo img{
+        width: 100%;
+    }
+    .footer .redes img{
+        width: 42px;
+    }
+    .container .logo2021 img {
+      
+        width: 50%;
+    }
+}
+
+@media (max-width:832px){
+    .nav a{
+        font-size: 14px;
+    }
+    .nav li{
+        width: 25%;
+        margin-bottom: 5px;
+    }
+    .logoDecom{
+        width: 350px;
+    }
+    .container .card img {
+        height: 310px;
+    }
+}
+
+@media (max-width:749px){
+    .footer .container > div{
+        width: 23%;
+    }
+}
+
+@media (max-width:725px){
+    .footer .container > div{
+        font-size: 14px;
+    }
+    .container .card{
+        width: 90%;
+    }
+}
+
+@media (max-width:685px){
+    .container .card img {
+        height: 250px;
+    }
+
+    .container .card{
+        width: 88%;
+    }
+}
+
+@media (max-width:609px){
+    .footer .container > div {
+        width: 88%;
+        float:none
+    }
+    .footer .logo img {
+        width: 30%;
+    }
+}
+
+@media (max-width:578px){
+    .container .card img{
+        height: 225px;
+    }
+    .container .logo2021 img {
+        width: 228px;
+    }
+
+    .container .card{
+        width: 84%;
+    }
+}
+
+@media (max-width:508px){
+    .container .card img{
+        height: 210px;
+    }
+}
+
+@media (max-width:468px){
+    .logoDecom {
+        width: 320px;
+    }
+
+    .container .card img{
+        height: 175px;
+    }
+
+    .container .card{
+        width: 83%;
+    }
+}
+
+@media (max-width:434px){
+
+    .container .card img{
+        height: 179px;
+    }
+
+    .container .card{
+        width: 83%;
+    }
+}
+
+@media (max-width:394px){
+
+    .nav a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:352px){
+    .container .card img {
+        height: 145px;
+    }
+
+    .container .card{
+        width: 83%;
+    }
+}
+
+@media (max-width:334px){
+    .nav a {
+        font-size: 11px;
+    }
+
+    .container .card{
+        width: 79%;
+    }
+}
+
+/*FIN RESPONSIVE INDEX*/
+
+/*INICIO RESPONSIVE DIRECTIVA*/
+
+@media (max-width:1196px){
+    .container .miembros{
+        width: 15%;
+    }
+}
+
+@media (max-width:1010px){
+    .container .miembros{
+        margin: 20px;
+       
+    }
+}
+
+@media (max-width:972px){
+    .container .miembros {
+        width: 27%;
+    }
+}
+
+@media (max-width:832px){
+    .container .miembros{
+        float: none;
+        width: 94%;
+    }
+}
+
+@media (max-width:636px){
+    .container .miembros{
+        float: none;
+        width: 94%;
+    }
+}
+
+@media (max-width:334px){
+    .container .miembros{
+        float: none;
+        width: 85%;
+    }
+}
+/*FIN RESPONSIVE DIRECTIVA*/
+
+/*INICIO RESPONSIVE REDES*/
+
+@media (max-width:1199px){
+    .container .miembrosRedes{
+        width: 45%;
+    }
+}
+
+@media (max-width:972px){
+    .container .miembrosRedes{
+        width: 41%;
+    }
+}
+
+@media (max-width:666px){
+    .container .miembrosRedes{
+        width: 39%;
+    }
+}
+
+@media (max-width:545px){
+    .container .miembrosRedes{
+        width: 36%;
+    }
+}
+
+@media (max-width:497px){
+    .container .miembrosRedes{
+        float: none;
+        width: 85%;
+    }
+}
+/*FIN RESPONSIVE REDES*/
+
+/*INICIO RESPONSIVE MIEMBROSPUBLI*/
+
+@media (max-width:972px){
+    .container .miembrosPubli {
+        width: 47%;
+        margin: 8px;
+}
+
+@media (max-width:665px){
+    .container .miembrosPubli {
+        width: 44%;
+}
+
+@media (max-width:557px){
+    .container .miembrosPubli{
+        float: none;
+        width: 89%;
+        margin: 24px;
+    }
+}
+
+/*FIN RESPONSIVE MIEMBROSPUBLI*/
